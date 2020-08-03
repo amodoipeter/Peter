@@ -1,8 +1,9 @@
 body{
-    background-color: darkcyan;
+    background-color: darkgreen;
 }
 .nav{
     font-size: xx-large;
+    background-color: darkcyan;
 }
 ul {
     list-style-type: none;
@@ -46,6 +47,7 @@ ul {
   }
   .Peter{
 padding-top: 500px;
+background-color: cornsilk;
   }
   progress{
 width: 30%;
@@ -64,3 +66,37 @@ height: 50px;
   #center{
    text-align: center; 
   }
+  .contact{
+    display: flex;
+    padding-top: 100px;
+    background-color: cornsilk;
+  }
+  
+  .layout{
+    flex: 50%;
+    padding: 5px;
+  }
+
+  .footer {
+    float: left;
+    background-color: blue;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+  }
+
+  .part {
+    content: "";
+    display: table;
+    clear: both;
+    padding: 5px;
+    flex: 25%;
+    text-align: center;
+  }
+  .active {
+    font-size: x-large;
+    padding: 5px;
+  }
+  
+  
