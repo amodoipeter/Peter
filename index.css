@@ -1,30 +1,24 @@
 body{
-    background-color: darkgreen;
+    background-color: skyblue;
 }
-.nav{
-    font-size: xx-large;
-    background-color: darkcyan;
+.nav-item{
+  font-size: x-large;
+  display: inline-flex;
+  padding: 25px;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding-top: 50px;
-  } 
-  li {
-    display: inline;
-    padding-left: 100px;
-  } 
-
+nav{
+  padding-left: 200px;
+}
   .column {
     float: left;
     padding-top: 100px;
 
   }
-  
+
   .left {
     width: 25%;
   }
-  
+
   .right {
     width: 75%;
   }
@@ -33,8 +27,9 @@ ul {
     position: relative;
     max-width: 100%;
     margin: 0 auto;
+    padding-bottom: 50px;
   }
-  
+
   .container .content {
     position: absolute;
     top: 0;
@@ -46,8 +41,14 @@ ul {
     padding-top: 400px;
   }
   .Peter{
-padding-top: 500px;
-background-color: cornsilk;
+padding-top: 50px;
+/* background-color: cornsilk; */
+display: flex;
+text-align: center;
+padding-bottom: 50px;
+  }
+  skills{
+    /* flex: 50%; */
   }
   progress{
 width: 30%;
@@ -56,22 +57,23 @@ height: 50px;
 
   .Accomplishments{
     display: flex;
-    padding-top: 100px;
   }
-  
+
   .Projects {
-    flex: 33.33%;
+    /* flex: 33.33%; */
     padding: 5px;
+    /* display: inline-table; */
+
   }
   #center{
-   text-align: center; 
+   text-align: center;
   }
   .contact{
     display: flex;
     padding-top: 100px;
-    background-color: cornsilk;
+    /* background-color: cornsilk; */
   }
-  
+
   .layout{
     flex: 50%;
     padding: 5px;
@@ -79,11 +81,11 @@ height: 50px;
 
   .footer {
     float: left;
-    background-color: blue;
-    height: 300px;
+    /* background-color: white; */
+    /* height: 300px; */
     width: 100%;
     display: flex;
-    padding-top: 10px;
+    padding-top:100px;
   }
 
   .part {
@@ -98,5 +100,17 @@ height: 50px;
     font-size: x-large;
     padding: 5px;
   }
-  
-  
+.navbar-brand{
+  font-size:xx-large ;
+}
+.row{
+  text-align: center;
+  padding-left: 200px;
+}
+h1{
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  color: blue;
+}
